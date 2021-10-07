@@ -1,0 +1,89 @@
+/* ID */
+div#logo{
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+div#links{
+    text-align: center;
+}
+
+/* CLASS */
+img.logo{
+    width: 250px;
+    padding: 50px 0px 50px 0px; /*cima direita baixo esquerda*/
+}
+
+a.link{
+    color: black;
+    text-decoration: underline;
+}
+
+div.form-group{
+    margin-left: 10%;
+    width: 80%;
+}
+/* GERAL */
+body{
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/* EVENTOS */
+
+
+/* BOOTSTRAP */
+
+.container{
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .btn-outline-success{
+    color: #0CA789;
+    width: 100%;
+    outline: #0CA789;
+    }
+
+    .btn-outline-success:hover{
+    color: white;
+    background-color: #0CA789;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
