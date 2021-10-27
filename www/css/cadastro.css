@@ -1,106 +1,45 @@
-/* ID */
-div#logo{
-    /*border: 1px solid red;*/
-    text-align: center;
-}
-
-div#links{
-    text-align: center;
-}
-
-div#personagem{
-    width: 25%;
-    height: 82px;
-    margin: 0 auto;
-    border: 1px solid red;
-    float: center;
-}
-
-div#termos{
-    width: 70%;
-    margin: 0 auto;
-}
-/* CLASS */
-a.link{
-    color: black;
-    text-decoration: underline;
-}
-
-div.form-group{
-    margin-left: 10%;
-    width: 80%;
-}
-
-img.logo{
-    width: 50%;
-    padding: 0px 0px 0px 0px; /*cima direita baixo esquerda*/
-}
-
-img.personagem{
-    width: 100%;
-}
-
 /* GERAL */
 body{
-    width: 30%;
     margin: 0 auto;
-    border: 1px solid red;
+    width: 40%;
 }
-
-/* BOOTSTRAP */
-
-.container{
-    height: 100%;
-    align-content: center;
-    }
-    
-    .card{
-    height: 370px;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 400px;
-    background-color: rgba(0,0,0,0.5) !important;
-    }
-    
-    .social_icon span:hover{
-    color: white;
-    cursor: pointer;
-    }
-    
-    .card-header h3{
-    color: white;
-    }
-    
-    .social_icon{
-    position: absolute;
-    right: 20px;
-    top: -45px;
-    }
-    
-    input:focus{
-    outline: 0 0 0 0  !important;
-    box-shadow: 0 0 0 0 !important;
-    
-    }
-    
-    .btn-outline-success{
-    color: #0CA789;
+/*////GERAL////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* IMAGENS */
+img#cores{
+    display: inline;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+img#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img#perso {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+img#voltar{
+    float: inline-start;
+    width: 10%;
+}
+/*////IMAGENS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* BOTÕES E LINKS */
+button#btnInserir{
+    margin: 0 auto;
     width: 100%;
-    outline: #0CA789;
-    }
-
-    .links{
-    color: white;
-    }
-    
-    .links a{
-    margin-left: 4px;
-    }
-
-/* EVENTOS */
-
-.btn-outline-success:hover{
-    color: white;
-    background-color: #0CA789;
-    }
-    
+}
+/*////BOTÕES E LINKS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* CHECK BOX E PA */
+#flexCheckDefault{
+    margin-left: 5%;
+}
+.form-check-label{
+    margin-left: 9%;
+}
+/*////CHECK BOX E PA////*/
+/*------------------------------------------------------------------------------------------------------------*/

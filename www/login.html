@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="./../cordova.js"></script>
+        <script src="js/jquery.js"></script> 
+        <script src="bootstrap/js/bootstrap.js"></script>
+	    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+		<script src="js/firebase.js"></script>
+		<script src="js/index.js"></script>
+        <title>Wazerunner</title>
+    </head>
+    <!--////HEAD////-->
+
+    <!-- BODY -->
+    <body>
+        <div class="container">
+			<div class="row">
+				<div class="card mb-3 col-12">
+					<div class="card-body">
+							<form>
+                                <!-- IMG LOGO -->
+                                <img src="img/logo.png" id="logo">
+                                <!--////IMG LOGO////-->
+
+                                <!-- INPUT LOGIN -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="txtNome" placeholder="Digite seu nome!">
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control" id="txtSenha" placeholder="Digite sua senha!">
+								</div>
+                                <!--////INPUT LOGIN////-->
+
+                                <!-- BOTÃO LOGIN -->
+								<button type="button" id="btnLogar" class="btn btn-outline-success">Login</button>
+                                <!--////BOTÃO LOGIN////-->
+                                <br><br>
+                                <!-- LINK CADASTRAR -->
+                                <a href="index.html"><p>Não tem uma conta?</p></a>
+                                <!--////LINK CADASTRAR////-->
+							</form>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+    <!--////BODY////-->
+</html>
