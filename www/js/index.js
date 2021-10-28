@@ -1,35 +1,21 @@
-var app = {
-        
-    // Application Constructor
-    initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-    },
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
-    onDeviceReady: function() {
-        document.getElementById("btnInserir").addEventListener("click",app.inserir);  
-    },
+const auth = getAuth();
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/firebase.User
+    const uid = user.uid;
+    window.alert("logado")
+    // ...
+  } else {
+    // User is signed out
+    window.alert("deslogado")
+  }
+});
 
-    inserir: function(){
-        let cnome = document.getElementById("txtNome").value;
-        let cemail = document.getElementById("txtEmail").value;
-        let csenha = document.getElementById("txtSenha").value;
+function login(){
+    var usuEmail = document.getElementById("txtEmail").value;
+    var usuSenha = document.getElementById("txtSenha").value;
 
-        var db = firebase.firestore();
-
-        db.collection("cadastros").add({
-            nome: cnome,
-            email: cemail,
-            senha: csenha
-        })
-        .then((docRef) => {
-            console.log("Document written with ID: ", docRef.id);
-            window.location.href = "index.html";
-        })
-        .catch((error) => {
-            console.error("Error adding document: ", error);
-        });
-
-    }  
-};
-
-app.initialize();
+}

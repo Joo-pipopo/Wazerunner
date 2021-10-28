@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="./../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="perguntas.css">
+        <script src="./../cordova.js"></script>
+        <script src="js/jquery.js"></script> 
+        <script src="../www/bootstrap/js/bootstrap.js"></script>
+	    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+		<script src="js/firebase.js"></script>
+		<script src="js/perguntas.js"></script>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Kurenaido&display=swap');
+            </style>            
+        <title>Wazerunner</title>
+    </head>
+    <!--////HEAD////-->
+
+    <!-- BODY -->
+    <body>
+        <div class="container">
+			<div class="row">
+				<div class="card mb-3 col-12">
+					<div class="card-body">
+							<form>
+                                <!-- PERGUNTA -->
+                                <div class="form-group">
+                                    <h2 id="pergunta">CHUPA QUANTOS PIRULITOS POR DIA?</h2>
+                                </div>
+                                <!--////PERGUNTA////-->
+
+                                <!-- RESPOSTAS -->
+                                <form>
+                                    <button type="button" id="resp1" class="btn btn-outline-success">menos de 5</button> <br><br>
+                                    <button type="button" id="resp2" class="btn btn-outline-success">entre 5 e 10</button> <br><br>
+                                    <button type="button" id="resp3" class="btn btn-outline-success">mais de 10</button>
+                                </form>
+                                <!--////RESPOSTAS////-->
+							</form>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+    <!--////BODY////-->
+</html>

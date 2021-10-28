@@ -9,32 +9,27 @@ var app = {
         document.getElementById("btnInserir").addEventListener("click",app.inserir);  
     },
 
-    cadastrar: function () {
-        let cmasc = document.getElementById("mascRadio").value;
-        let cfem = document.getElementById("femRadio").value;
-        let cusuario = document.getElementById("txtUsuario").value;
+    inserir: function(){
+        let cnome = document.getElementById("txtNome").value;
         let cemail = document.getElementById("txtEmail").value;
         let csenha = document.getElementById("txtSenha").value;
-        let ctermos = document.getElementById("checkTermos").value;
 
         var db = firebase.firestore();
 
         db.collection("cadastros").add({
-            masc: cmasc,
-            fem: cfem,
-            nome: cusuario,
+            nome: cnome,
             email: cemail,
-            senha: csenha,
-            termos: ctermos
+            senha: csenha
         })
         .then((docRef) => {
-            console.log("Documento escrito com ID: ", docRef.id);
-            window.location.href = cordova.file.applicationDirectory + "www/cadastro.html";
+            console.log("Document written with ID: ", docRef.id);
+            window.location.href = "perguntas/pergunta1.html";
         })
-        .catch((error) =>{
-            console.error("Erro ao adicionar o documento: ", error);
+        .catch((error) => {
+            console.error("Error adding document: ", error);
         });
-    }
+
+    }  
 };
 
 app.initialize();

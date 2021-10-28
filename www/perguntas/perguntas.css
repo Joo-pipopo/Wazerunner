@@ -1,0 +1,25 @@
+/* GERAL */
+body{
+    margin: 0 auto;
+    width: 40%;
+}
+/*////GERAL////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* TEXTOS E LINKS */
+h2#pergunta{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+/*////TEXTOS E LINKS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* BOTÕES */
+button.btn-outline-success{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+/*////BOTÕES////*/
+/*------------------------------------------------------------------------------------------------------------*/

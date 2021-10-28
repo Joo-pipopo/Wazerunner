@@ -15,6 +15,7 @@ img#logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 15%;
 }
 img#perso {
     display: block;
@@ -23,11 +24,11 @@ img#perso {
 }
 img#voltar{
     float: inline-start;
-    width: 10%;
+    width: 7%;
 }
 /*////IMAGENS////*/
 /*------------------------------------------------------------------------------------------------------------*/
-/* BOTÕES E LINKS */
+/* BOTÕES */
 button#btnInserir{
     margin: 0 auto;
     width: 100%;
@@ -42,4 +43,8 @@ button#btnInserir{
     margin-left: 9%;
 }
 /*////CHECK BOX E PA////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* TEXTO E LINKS */
+
+/*////TEXTO E LINKS////*/
 /*------------------------------------------------------------------------------------------------------------*/
