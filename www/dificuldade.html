@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <meta charset="utf-8">
+        <script src="js/jquery.js"></script> 
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/dificuldade.css">
+        <script src="./../cordova.js"></script>
+        <script src="../www/bootstrap/js/bootstrap.js"></script>
+	    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+		<script src="js/firebase.js"></script>
+		<script src="js/dificuldade.js"></script>
+        <title>Wazerunner</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Kurenaido&display=swap');
+        </style>
+    </head>
+    <!--////HEAD////-->
+
+    <!-- BODY -->
+    <body>
+        <div class="container">
+			<div class="row">
+				<div class="card mb-3 col-12" style="background-image: url('img/fundoDificuldade.png');">
+					<div class="card-body">
+							<form>
+                                <!-- PERGUNTA -->
+                                <div class="form-group">
+                                    <h2 id="pergunta">VOCÊ QUER QUAL DIFICULDADE?</h2>
+                                </div>
+                                <!--////PERGUNTA////-->
+
+                                <br><br><br><br><br>
+
+                                <!-- RESPOSTAS -->
+                                <form>
+                                    <button type="button" id="resp1" class="btn btn-outline-success">FÁCIL</button> <br><br>
+                                    <button type="button" id="resp2" class="btn btn-outline-success">MÉDIO</button> <br><br>
+                                    <button type="button" id="resp3" class="btn btn-outline-success">DIFÍCIL</button>
+                                </form>
+                                <!--////RESPOSTAS////-->
+
+                                <br><br><br><br><br><br>
+							</form>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+    <!--////BODY////-->
+</html>

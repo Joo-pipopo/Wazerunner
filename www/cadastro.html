@@ -2,15 +2,10 @@
 <html>
     <!-- HEAD -->
     <head>
-        <meta charset="utf-8">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <meta name="color-scheme" content="light dark">
+        <script src="js/jquery.js"></script> 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="css/cadastro.css">
         <script src="./../cordova.js"></script>
-        <script src="js/jquery.js"></script> 
         <script src="bootstrap/js/bootstrap.js"></script>
 	    <!-- The core Firebase JS SDK is always required and must be listed first -->
 		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
@@ -35,26 +30,9 @@
 							<form>
                                 <!-- IMAGEM LOGO -->
                                 <div class="form-group">
-                                    <img id="logo" src="img/logo.png">
+                                    <img id="logo" src="img/logo2.png">
                                 </div>
                                 <!--////IMAGEM LOGO////-->
-                                
-                                <!-- IMAGEM PLAYER -->
-                                <div class="form-group">
-                                    <img id="perso" src="img/perso.png">
-                                </div>
-                                <!-- IMAGEM PLAYER -->
-                                <br><br>
-                                <!-- CORES PERSONAGEM-->
-                                <div class="form group">
-                                    <img id="cores" src="img/cor1.png"> 
-                                    <img id="cores" src="img/cor1.png">
-                                    <img id="cores" src="img/cor1.png">
-                                    <img id="cores" src="img/cor1.png">
-                                    <img id="cores" src="img/cor1.png">
-                                    <img id="cores" src="img/cor1.png">
-                                </div>
-                                <!--////CORES PERRSONAGEM////-->
                                 
                                 <!-- INPUT CADASTRO -->
 								<div class="form-group">
@@ -70,7 +48,7 @@
 
                                 <!-- TERMOS DE CONDIÇÕES -->
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="termos()">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Eu aceito os termos de condições
                                     </label>

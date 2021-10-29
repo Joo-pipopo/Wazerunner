@@ -1,0 +1,36 @@
+/* GERAL */
+body{
+    margin: 0 auto;
+    width: 40%;
+}
+/*////GERAL////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* TEXTOS E LINKS */
+h2#pergunta{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+/*////TEXTOS E LINKS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* BOTÕES */
+button.btn-outline-success{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: rgb(169, 221, 156);
+}
+/*////BOTÕES////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* DIVS */
+div.card{
+    background-color: rgb(250, 250, 250);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*////DIVS////*/
+/*------------------------------------------------------------------------------------------------------------*/

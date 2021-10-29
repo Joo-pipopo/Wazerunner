@@ -1,21 +1,18 @@
-import { getAuth, onAuthStateChanged } from "firebase/auth";
+document.getElementById("loginForm").addEventListener("submit",(event)=>{
+  event.preventDefault()
+})
 
-const auth = getAuth();
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    // User is signed in, see docs for a list of available properties
-    // https://firebase.google.com/docs/reference/js/firebase.User
-    const uid = user.uid;
-    window.alert("logado")
-    // ...
-  } else {
-    // User is signed out
-    window.alert("deslogado")
+firebase.auth().onAuthStateChanged((user)=>{
+  if(user){
+      location.replace("dificuldade.html")
   }
-});
+})
 
 function login(){
-    var usuEmail = document.getElementById("txtEmail").value;
-    var usuSenha = document.getElementById("txtSenha").value;
-
+  const email = document.getElementById("txtEmail").value
+  const senha = document.getElementById("txtSenha").value
+  firebase.auth().signInWithEmailAndPassword(email, senha)
+  .catch((error)=>{
+      document.getElementById("erro").innerHTML = error.message
+  })
 }
