@@ -20,17 +20,31 @@ h2#titulo{
 button.escolha{
     height: 100%;
     width: 49%;
-    display: inline;
     border: none;
 }
 
 /*////BOTÕES////*/
 /*------------------------------------------------------------------------------------------------------------*/
 /* IMAGENS */
-input.escolha{
-    background: #ccc url('img/IMGcorrida.png') no-repeat top left;
-    width: 50%;
-    height: 500px;
+input.corrida{
+    background: #ccc url('../img/IMGcorrida.png') no-repeat top left;
+    width: 49%;
+    height: 400px;
+    margin: 0 0 0 0;
+    border: none;
+}
+input.ciclismo{
+    background: #ccc url('../img/IMGciclismo.png') no-repeat top left;
+    width: 49%;
+    height: 400px;
+    margin: 0 0 0 0;
+    border: none;
+}
+/*////IMAGENS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* IMAGENS */
+div.container{
+
 }
 /*////IMAGENS////*/
 /*------------------------------------------------------------------------------------------------------------*/
