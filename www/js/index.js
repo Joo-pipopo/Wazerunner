@@ -1,18 +1,25 @@
-document.getElementById("loginForm").addEventListener("submit",(event)=>{
-  event.preventDefault()
-})
+document.getElementById("btnLogar").addEventListener("click", logar);
 
-firebase.auth().onAuthStateChanged((user)=>{
-  if(user){
-      location.replace("dificuldade.html")
-  }
-})
+function logar() {
+    var auth = firebase.auth();
+    firebase.auth().onAuthStateChanged(function (user) {
 
-function login(){
-  const email = document.getElementById("txtEmail").value
-  const senha = document.getElementById("txtSenha").value
-  firebase.auth().signInWithEmailAndPassword(email, senha)
-  .catch((error)=>{
-      document.getElementById("erro").innerHTML = error.message
-  })
+    // Lay connection with the database.
+    var firestore = firebase.firestore();
+    var db = firestore.collection('cadastros').doc(user.uid);
+
+    // Get the user data from the database.
+    db.get().then(function (db) {
+        // Catch error if exists. 
+        alert("logado");
+        promise.catch(function (error) {
+            // Return error
+            alert("Ocorreu um erro, "+error);
+        });
+
+        promise.then(function () {
+            // continue when success
+        });
+    });
+});
 }

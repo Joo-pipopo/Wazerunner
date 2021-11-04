@@ -48,7 +48,7 @@
 
                                 <!-- TERMOS DE CONDIÇÕES -->
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="termos()">
+                                    <input class="form-check-input" type="checkbox" id="flexCheckDefault" onchange="document.getElementById('btnInserir').disabled = !this.checked;">
                                     <label class="form-check-label" for="flexCheckDefault">
                                         Eu aceito os termos de condições
                                     </label>

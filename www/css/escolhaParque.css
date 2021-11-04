@@ -1,0 +1,33 @@
+/* GERAL */
+body{
+    margin: 0 auto;
+    width: 40%;
+    border: 1px solid red;
+}
+/*////GERAL////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* TEXTOS E LINKS */
+h2#titulo{
+    text-align: center;
+    margin: 0 0 5% 0; /*cima direita baixo esquerda*/
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+/*////TEXTOS E LINKS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* BOTÕES */
+input.config{
+    width: 70px;
+    height: 70px;
+    background: #ccc url(../img/config.png) no-repeat top left;
+}
+/*////BOTÕES////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* IMAGENS */
+img.logo{
+    width: 40%;
+    margin: 0 0 0 15%;
+}
+/*////IMAGENS////*/
+/*------------------------------------------------------------------------------------------------------------*/

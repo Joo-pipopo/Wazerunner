@@ -6,7 +6,7 @@ var app = {
     },
 
     onDeviceReady: function() {
-        document.getElementById("btnInserir").addEventListener("click",app.inserir);  
+        document.getElementById("btnInserir").addEventListener("click",app.inserir);
     },
 
     inserir: function(){
@@ -23,7 +23,7 @@ var app = {
         })
         .then((docRef) => {
             console.log("ID do cadastro: ", docRef.id);
-            window.location.href = "dificuldade/dificuldade.html";
+            window.location.href = "dificuldade.html";
         })
         .catch((error) => {
             console.error("Erro ao cadastrar: ", error);
@@ -31,13 +31,4 @@ var app = {
 
     }
 };
-function termos() {
-    var check = document.getElementById("flexCheckDefault");
-    var btnCad = document.getElementById("btnInserir");
-
-    check.onclick = function () {
-        var cont = document.querySelectorAll("input[id='flexCheckDefault']:checked").length;
-        btnCad.disabled = cont ? false : true;
-    }
-}
 app.initialize();
