@@ -1,51 +1,70 @@
 /* GERAL */
 body{
     margin: 0 auto;
-    width: 100%;    
+    width: 100%;  
 }
 /*////GERAL////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* IMAGENS */
-img.image-cima {
-    height: 90%;
-    width: 100%;
+img.imagem-cima {
+    height: 100%;
+    width: 100vw;
+    left: 15%;
+    -ms-transform: translate(-15%);
+    transform: translate(-15%);
 }
 
-img.image-baixo {
-    height: 90%;
-    width: 100%;
+img.imagem-baixo {
+    height: 100%;
+    width: 100vw;
+    left: 15%;
+    -ms-transform: translate(-15%);
+    transform: translate(-15%);
 }
 
 /*////IMAGENS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* BOTÕES */
-button.btn-outline-success{
-    margin: 0 auto;
-    width: 100%;
+select.form-select{
+    width: 70vw;
+    height: 5vh;
+}
+
+option.opcoes{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: center;
-    top:0px;
-    background-color: rgb(255, 255, 255);
-    align-content: center;
+    font-weight: bolder;
 }
 /*////BOTÕES////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* TEXTOS E LINKS*/
-p{
+p.title{
    font-size: 42pt;
    font-family: 'Zen Kaku Gothic New', sans-serif;
    font-family: 'Zen Kurenaido', sans-serif;
-
    font-weight: bolder;
 }
+
 /*////TEXTOS E LINKS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* DIVS */
 div.imagem-meio {
-    height: 65vh;
-    width: 113%;
+    height: 55vh;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
     background: #ccc url("../img/foto_parque.jpg") no-repeat top left;
-    }
+}
+
+div.botao-central{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 /*////DIVS////*/
-/*------------------------------------------------------------------------------------------------------------*/
