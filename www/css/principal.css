@@ -1,0 +1,51 @@
+/* GERAL */
+body{
+    margin: 0 auto;
+    width: 100%;    
+}
+/*////GERAL////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* IMAGENS */
+img.image-cima {
+    height: 90%;
+    width: 100%;
+}
+
+img.image-baixo {
+    height: 90%;
+    width: 100%;
+}
+
+/*////IMAGENS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* BOTÕES */
+button.btn-outline-success{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: center;
+    top:0px;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+}
+/*////BOTÕES////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* TEXTOS E LINKS*/
+p{
+   font-size: 42pt;
+   font-family: 'Zen Kaku Gothic New', sans-serif;
+   font-family: 'Zen Kurenaido', sans-serif;
+
+   font-weight: bolder;
+}
+/*////TEXTOS E LINKS////*/
+/*------------------------------------------------------------------------------------------------------------*/
+/* DIVS */
+div.imagem-meio {
+    height: 65vh;
+    width: 113%;
+    background: #ccc url("../img/foto_parque.jpg") no-repeat top left;
+    }
+/*////DIVS////*/
+/*------------------------------------------------------------------------------------------------------------*/
