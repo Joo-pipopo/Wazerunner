@@ -1,0 +1,75 @@
+/* GERAL */
+body{
+    margin: 0 auto;
+    width: 100%;  
+}
+/*////GERAL////*/
+
+/* IMAGENS */
+img.imagem-cima {
+    height: 100%;
+    width: 100vw;
+    left: 15%;
+    -ms-transform: translate(-15%);
+    transform: translate(-15%);
+}
+
+img.voltar{
+    width: 7%;
+    float: left;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+img.icone-rota{
+    width: 35%;
+    height: 35%;
+}
+/*////IMAGENS////*/
+
+/* BOTÕES */
+/*////BOTÕES////*/
+
+/* TEXTOS E LINKS*/
+p.title{
+   font-size: 42pt;
+   font-family: 'Zen Kaku Gothic New', sans-serif;
+   font-family: 'Zen Kurenaido', sans-serif;
+   font-weight: bolder;
+}
+
+p.subtitle{
+    font-size: 25pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+}
+
+p.distancia{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+/*////TEXTOS E LINKS////*/
+
+/* DIVS */
+div.imagem-meio {
+    height: 55vh;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    background: #ccc url("../img/foto_parque.jpg") no-repeat top left;
+    overflow: scroll;
+}
+
+div.imagem-baixo {
+    background: #ccc url("../img/partebaixo.png") no-repeat top left;
+    height: 11vh;
+    width: 100vw;
+    left: 10%;
+    -ms-transform: translate(-15%);
+    transform: translate(-15%);
+}
+/*////DIVS////*/
