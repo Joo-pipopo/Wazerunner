@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<!-- HEAD -->
+
+<head>
+    <!-- ALFABETO USADO -->
+    <meta charset="utf-8">
+
+    <!-- LINK DO JQUERY -->
+    <script src="js/jquery.js"></script>
+
+    <!-- LINKS DO BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- LINK DO JS DO CORDOVA -->
+    <script src="./../cordova.js"></script>
+    
+	<!-- LINKS DOS JS DO FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    
+    <!-- IMPORT DA FONTE -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Kurenaido&display=swap');
+    </style>
+
+    <!-- LINK DO CSS -->
+    <link rel="stylesheet" href="css/ceretRotas.css">
+    
+    <!-- LINKS DOS JS -->
+    <script src="js/firebase.js"></script>
+    <script src="js/ceretRotas.js"></script>
+
+    <!-- TÍTULO -->
+    <title>Wazerunner</title>
+</head>
+<!--////HEAD////-->
+
+<!-- BODY -->
+<body>
+    <center>
+            <div class="tudo">
+                <!-- IMAGEM DE CIMA -->
+                <div class="imagem-cima">
+                </div>
+                <!--////IMAGEM DE CIMA////-->
+
+                <!-- CENTRO -->
+                <div class="imagem-meio">
+                    <!-- TÍTULO E SUBTÍTULO -->
+                    <p class="title">Parque CERET</p>
+                    <p class="subtitle">Escolha uma rota</p>
+
+                    <!-- ROTA UM -->
+                    <a href="ceret-rota1.html"><img src="img/mapatemplate.jpg" class="icone-rota"></a>
+                    <br><br>
+                    <p class="distancia">DISTANCIA ESTIMADA: XXX</p>
+                    <br>
+                    
+                    <!-- ROTA DOIS -->
+                    <a href="ceret-rota2.html"><img src="img/mapatemplate.jpg" class="icone-rota"></a>
+                    <br><br>
+                    <p class="distancia">DISTANCIA ESTIMADA: XXX</p>
+                    <br>
+
+                    <!-- ROTA TRÊS -->
+                    <a href="ceret-rota3.html"><img src="img/mapatemplate.jpg" class="icone-rota"></a>
+                    <br><br>
+                    <p class="distancia">DISTANCIA ESTIMADA: XXX</p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+                <!--////CENTRO////-->
+
+                <!-- IMAGEM DE BAIXO -->
+                <div class="imagem-baixo">
+
+                    <!-- BOTÃO VOLTAR -->
+                    <a href="../principal.html"><img src="img/voltar.png" class="voltar"></a>
+                </div>
+                <!--////IMAGEM DE BAIXO////-->
+            </div>
+    </center>
+</body>
+<!--////BODY////-->
+
+</html>
