@@ -1,51 +1,62 @@
 /* GERAL */
 body{
     margin: 0 auto;
-    width: 100%;    
+    width: 100%;
 }
 /*////GERAL////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* IMAGENS */
-img.image-cima {
-    height: 90%;
-    width: 100%;
-}
-
-img.image-baixo {
-    height: 90%;
-    width: 100%;
-}
-
 /*////IMAGENS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* BOTÕES */
-button.btn-outline-success{
-    margin: 0 auto;
-    width: 100%;
+select.form-select{
+    width: 70vw;
+    height: 5vh;
+    margin-top: 50%;
+    margin-left: 0%;
+}
+option.opcoes{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: center;
-    top:0px;
-    background-color: rgb(255, 255, 255);
-    align-content: center;
+    font-weight: bolder;
 }
 /*////BOTÕES////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* TEXTOS E LINKS*/
-p{
-   font-size: 42pt;
+p.title{
+   font-size: 66pt;
    font-family: 'Zen Kaku Gothic New', sans-serif;
    font-family: 'Zen Kurenaido', sans-serif;
-
    font-weight: bolder;
+   color: #ccc;
+   margin-top: 10%;
 }
+
 /*////TEXTOS E LINKS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* DIVS */
+div.imagem-cima {
+    height: 10vh;
+    width: 100%;
+    background: #0ca789 url("../img/partecima.png") no-repeat top center;
+    position: fixed;
+}
+
 div.imagem-meio {
-    height: 65vh;
-    width: 113%;
-    background: #ccc url("../img/foto_parque.jpg") no-repeat top left;
-    }
+    margin-top: 14%;
+    margin-bottom: 80px;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    background: url("../img/fundoEscolhaParque.png") no-repeat top left;
+}
+
+div.imagem-baixo {
+    bottom: 0;
+    height: 11vh;
+    width: 100%;
+    background: #0ca789 url("../img/partebaixo.png") no-repeat top center;
+    position: fixed;
+}
 /*////DIVS////*/
-/*------------------------------------------------------------------------------------------------------------*/
