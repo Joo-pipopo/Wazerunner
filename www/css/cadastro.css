@@ -1,50 +1,53 @@
 /* GERAL */
 body{
-    margin: 0 auto;
-    width: 40%;
+    margin-top: 15%;
+    width: 100%;
 }
 /*////GERAL////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* IMAGENS */
-img#cores{
-    display: inline;
-    margin-left: 7%;
-    margin-right: 5%;
-}
 img#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-img#perso {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
 }
 img#voltar{
-    float: inline-start;
+    float: left;
+    margin-left: 15%;
     width: 7%;
 }
 /*////IMAGENS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* BOTÕES */
 button#btnInserir{
-    margin: 0 auto;
-    width: 100%;
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
 }
 /*////BOTÕES E LINKS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+
 /* CHECK BOX E PA */
 #flexCheckDefault{
-    margin-left: 5%;
+    -ms-transform: scale(1); /* IE */
+    -moz-transform: scale(1); /* FF */
+    -webkit-transform: scale(1); /* Safari and Chrome */
+    -o-transform: scale(1); /* Opera */
+    transform: scale(1);
+    padding: 2%;
 }
 .form-check-label{
-    margin-left: 9%;
+    font-size: 15pt;
+    margin-left: 2%;
+    margin-bottom: 5%;
 }
 /*////CHECK BOX E PA////*/
-/*------------------------------------------------------------------------------------------------------------*/
-/* TEXTO E LINKS */
 
+/* TEXTO E LINKS */
+input.form-control{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
+}
 /*////TEXTO E LINKS////*/
-/*------------------------------------------------------------------------------------------------------------*/

@@ -5,16 +5,25 @@ function logar() {
     var senha = document.getElementById("txtSenha").value;
     
     var db = firebase.firestore();
-    var ag = db.collection("cadastros").where("email", "==", email);
+    var col = db.collection("cadastros").where("email", "==", email, "&&", "senha", "==", senha);
 
-    firebase.auth().signInWithEmailAndPassword(email, senha)
+    col.get()
+    .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+            
+        }).catch((error) => {
+                console.error("error: ", error);
+            });
+    });
+
+    /*firebase.auth().signInWithEmailAndPassword(email, senha)
     .then((userCredential) => {
     // Signed in
     var user = userCredential.user;
     window.location.href="dificuldade.html";
   })
-  .catch((error) => {
+  .catch((error) => { 
     var errorMessage = error.message;
     alert("Ocorreu um erro: "+errorMessage);
-  });
+  });*/
 }

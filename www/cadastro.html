@@ -23,7 +23,8 @@
 	    <!-- LINKS DOS JS DO FIREBASE -->
 		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
 
         <!-- LINKS DOS JS -->
 		<script src="js/firebase.js"></script>
@@ -36,56 +37,51 @@
 
     <!-- BODY -->
     <body>
-        <div class="container">
-			<div class="row">
-				<div class="card mb-3 col-12">
-					<div class="card-body">
-							<form>
-                                <!-- IMAGEM LOGO -->
-                                <div class="form-group">
-                                    <img id="logo" src="img/logo2.png">
-                                </div>
-                                <!--////IMAGEM LOGO////-->
+        <center>
+        <div class="tudo">
+            <form id="cadastro">
+                <!-- IMAGEM LOGO -->
+                <div class="form-group">
+                    <img id="logo" src="img/logo2.png">
+                </div>
+                <!--////IMAGEM LOGO////-->
                                 
-                                <!-- INPUT CADASTRO -->
-								<div class="form-group">
-									<input type="text" class="form-control" id="txtNome" placeholder="Digite seu nome!">
-								</div>
-                                <div class="form-group">
-									<input type="text" class="form-control" id="txtEmail" placeholder="Digite seu email!">
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control" id="txtSenha" placeholder="Digite sua senha!">
-								</div>
-                                <!--////INPUT CADASTRO////-->
-
-                                <!-- TERMOS DE CONDIÇÕES -->
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="flexCheckDefault" onchange="document.getElementById('btnInserir').disabled = !this.checked;">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Eu aceito os termos de condições
-                                    </label>
-                                <!--////TERMOS DE CONDIÇÕES////-->
-
-                                    <br><br>
-                                
-                                <!-- BOTÃO CADASTRO -->
-								<button type="button" id="btnInserir" class="btn btn-outline-success" disabled>Cadastrar</button>
-                                <!--////BOTÃO CADASTRO////-->
-                                
-                                <br><br>
-                                
-                                <!-- ÍCONE VOLTAR -->
-                                <div class="form-group">
-                                    <a href="index.html"><img src="img/voltar.png" id="voltar"></a>
-                                </div>
-                                <!--////ÍCONE VOLTAR////-->
-							</form>
-						</p>
-					</div>
+                <!-- INPUT CADASTRO -->
+				<div class="form-group">
+				    <input type="text" class="form-control" id="txtNome" placeholder="Digite seu nome!">
 				</div>
-			</div>
+                <div class="form-group">
+				    <input type="text" class="form-control" id="txtEmail" placeholder="Digite seu email!">
+				</div>
+				<div class="form-group">
+				    <input type="password" class="form-control" id="txtSenha" placeholder="Digite sua senha!">
+				</div>
+                <!--////INPUT CADASTRO////-->
+                    <br><br>
+                <!-- TERMOS DE CONDIÇÕES -->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="flexCheckDefault" onchange="document.getElementById('btnInserir').disabled = !this.checked;">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Eu aceito os termos de condições
+                    </label>
+                    <!--////TERMOS DE CONDIÇÕES////-->
+
+                    <br><br>
+                                
+                <!-- BOTÃO CADASTRO -->
+				<button type="button" id="btnInserir" class="btn btn-outline-success" disabled>Cadastrar</button>
+                <!--////BOTÃO CADASTRO////-->
+                                
+                <br><br>
+                                
+                <!-- ÍCONE VOLTAR -->
+                <div class="form-group">
+                    <a href="principal.html"><img src="img/voltar.png" id="voltar"></a>
+                </div>
+                <!--////ÍCONE VOLTAR////-->
+			</form>
 		</div>
+    </center>
     </body>
     <!--////BODY////-->
 </html>

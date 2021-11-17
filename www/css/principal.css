@@ -1,5 +1,6 @@
 /* GERAL */
 body{
+
     margin: 0 auto;
     width: 100%;
 }
@@ -10,29 +11,43 @@ body{
 
 /* BOTÕES */
 select.form-select{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     width: 70vw;
     height: 5vh;
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 0%;
+    font-size: 10pt;
+    background-color: white;
 }
 option.opcoes{
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
     text-align: center;
     font-weight: bolder;
+    font-size: medium;
 }
 /*////BOTÕES////*/
 
 /* TEXTOS E LINKS*/
 p.title{
-   font-size: 66pt;
+   font-size: 35pt;
    font-family: 'Zen Kaku Gothic New', sans-serif;
    font-family: 'Zen Kurenaido', sans-serif;
    font-weight: bolder;
-   color: #ccc;
-   margin-top: 10%;
+   color: rgb(255, 255, 255);
+   margin-top: 15%;
+   display: inline;
 }
-
+p.title2{
+    font-size: 35pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 15%;
+    display: inline;
+ }
 /*////TEXTOS E LINKS////*/
 
 /* DIVS */

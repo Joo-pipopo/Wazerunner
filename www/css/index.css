@@ -1,51 +1,41 @@
 /* GERAL */
 body{
-    margin: 0 auto;
-    width: 40%;
-}
-/*////GERAL////*/
-/*------------------------------------------------------------------------------------------------------------*/
-/* IMAGENS */
-img#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    width: 50%;
-}
-/*////IMAGENS////*/
-/*------------------------------------------------------------------------------------------------------------*/
-/* BOTÕES */
-button#btnLogar{
-    margin: 0 auto;
+    margin-top: 30%;
     width: 100%;
 }
+/*////GERAL////*/
 
-/*////BOTÕES////*/
-/*------------------------------------------------------------------------------------------------------------*/
-/* TEXTOS E LINKS*/
-p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
+/* IMAGENS */
+img#logo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+img#voltar{
+    float: left;
+    margin-left: 15%;
+    width: 7%;
+}
+/*////IMAGENS////*/
+
+/* BOTÕES */
+button#btnLogar{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
+}
+/*////BOTÕES E LINKS////*/
+
+/* TEXTO E LINKS */
+input.form-control{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
 }
 
 a {
     color: black;
-    text-decoration: underline;
-    text-align: center;
 }
-
-a:hover{
-    color: black;
-    text-decoration: underline;
-}
-/*////TEXTOS E LINKS////*/
-/*------------------------------------------------------------------------------------------------------------*/
-/* DIVS */
-div.card{
-    background-color: rgb(250, 250, 250);
-}
-/*////DIVS////*/
-/*------------------------------------------------------------------------------------------------------------*/
+/*////TEXTO E LINKS////*/
