@@ -51,3 +51,39 @@ input.form-control{
     margin-bottom: 5%;
 }
 /*////TEXTO E LINKS////*/
+
+/* ALERT */
+/* alert email */
+.alert-email {
+    padding: 20px;
+    background-color: #fa5b4f;
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+}
+  
+/* alert nome */
+.alert-nome {
+    padding: 20px;
+    background-color: #fa5b4f; 
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+}
+
+/* o x de fechar */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: rgb(31, 31, 31);
+}
+/*////ALERT////*/

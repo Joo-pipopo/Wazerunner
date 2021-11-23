@@ -1,59 +1,67 @@
-        firebase.initializeApp(firebaseConfig);
-        
-        var btnCadastrar = document.getElementById('btnInserir');
-        var email = document.getElementById('txtEmail');
-        var senha = document.getElementById('txtSenha');
-        
-        btnCadastrar.addEventListener('click', function () {
-            firebase
-            .auth()
-            .createUserWithEmailAndPassword(email.value, senha.value)
-            .then(function () {
-                alert('Bem vindo' + email.value);
-            })
-            .catch(function (error) {
-                console.error(error.code);
-                console.error(error.message);
-                alert('Falha ao cadastrar, verifique o erro no console.');
-            });
-        });
+var app = {
 
+    // Application Constructor
+    initialize: function () {
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    },
 
-        /*firebase.initializeApp(firebaseConfig);
+    onDeviceReady: function () {
+        document.getElementById("btnCadastrar").addEventListener("click", app.cadastrar);
+    },
 
-        const cadastro = document.getElementById('cadastro');
-
-        cadastro.onsubmit = event => {
-        event.preventDefault();
-
-        const email = cadastro.querySelector('name=txtEmail').value;
-        const senha = cadastro.querySelector('name=txtSenha').value;
-
-        firebase.auth().createUserWithEmailAndaPassword(email, senha)
-        .then(() => {
-                alert("Usuário cadastrado com sucesso!");
-            }).catch((error) => {
-                console.log("erro: "+error);
-            });
-        };*/
-        
-        
-        
-        /*let cnome = document.getElementById("txtNome").value;
-        let cemail = document.getElementById("txtEmail").value;
-        let csenha = document.getElementById("txtSenha").value;
-
+    cadastrar: function () {
         var db = firebase.firestore();
 
-        db.collection("cadastros").add({
-            nome: cnome,
-            email: cemail,
-            senha: csenha
-        })
-        .then((docRef) => {
-            console.log("ID do cadastro: ", docRef.id);
-            window.location.href = "principal.html";
-        })
-        .catch((error) => {
-            console.error("Erro ao cadastrar: ", error);
-        });*/
+        let cnome = document.getElementById('txtNome').value;
+        let cemail = document.getElementById('txtEmail').value;
+        let csenha = document.getElementById('txtSenha').value;
+
+        var col = db.collection("cadastros").where("email", "==", cemail)
+        var col2 = db.collection("cadastros").where("nome", "==", cnome);
+
+        var alertEmail = document.getElementById('alert-Email');
+        var alertNome = document.getElementById('alert-Nome');
+
+        col.get().then((querySnapshot) => {
+            var contagem = 0;
+            querySnapshot.forEach((doc) => {
+                contagem++;
+            });
+
+            if (contagem >= 1) {
+                //alert('email inválido');
+                alertEmail.style.display='block';
+            } else {
+                col2.get().then((q) => {
+                    var contagem2 = 0;
+                    q.forEach((doc) => {
+                        contagem2++;
+                    });
+
+                    if (contagem2 >= 1) {
+                        //alert('nome de usuário inválido');
+                        alertNome.style.display='block';
+                    } else {
+                        db.collection("cadastros").add({
+                            nome: cnome,
+                            email: cemail,
+                            senha: csenha
+                        }).then((docRef) => {
+                            console.log("Document written with ID: ", docRef.id);
+                            window.location = "principal.html";
+                        }).catch((error) => {
+                            console.error("Error adding document: ", error);
+                        });
+                    }
+
+                });
+            }
+
+        }).catch((error) => {
+            console.log("error: ", error);
+        });
+
+    }
+};
+
+app.initialize();

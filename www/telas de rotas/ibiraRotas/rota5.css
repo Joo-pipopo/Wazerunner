@@ -63,7 +63,7 @@ div.imagem-meio {
     height: 90vh;
     width: 100%;
     position: fixed;
-    background: white url("../img/rota.png") no-repeat top center;
+    background: #ccc url("../img/mapatemplate.jpg") no-repeat top center;
 }
 
 div.imagem-baixo {
@@ -74,15 +74,3 @@ div.imagem-baixo {
     position: fixed;
 }
 /*////DIVS////*/
-
-/* ///////////// */
-
-#confs{
-
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.4);
-
-    display: none;
-    z-index: 2;
-}
