@@ -63,7 +63,7 @@ div.imagem-meio {
     height: 90vh;
     width: 100%;
     position: fixed;
-    background: #ccc url("../img/mapatemplate.jpg") no-repeat top center;
+    background: white url("../img/ceretRota4.png") no-repeat top center;
 }
 
 div.imagem-baixo {

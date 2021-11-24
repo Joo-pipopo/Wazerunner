@@ -6,12 +6,6 @@ body{
 /*////GERAL////*/
 
 /* IMAGENS */
-img.voltar{
-    width: 7%;
-    float: left;
-    margin-top: 7%;
-    margin-left: 5%;
-}
 
 /*////IMAGENS////*/
 
@@ -38,7 +32,7 @@ input#desafio{
 
 input#concluir{
     font-size: 10pt;
-    margin-top: 63vh;
+    margin-top: 62vh;
     width: 40%;
     height: 5%;
     font-weight: bolder;
@@ -53,7 +47,7 @@ input#concluir{
 div.imagem-cima {
     height: 11vh;
     width: 100%;
-    background: #0ca789 url("../img/partecima.png") no-repeat top center;
+    background: #0ca789 url("../img/partecima.png") no-repeat center;
     position: fixed;
 }
 
@@ -63,7 +57,7 @@ div.imagem-meio {
     height: 90vh;
     width: 100%;
     position: fixed;
-    background: #ccc url("../img/rota.jpeg") no-repeat top center;
+    background: white url("../img/ceretRota1.png") no-repeat top center;
 }
 
 div.imagem-baixo {
@@ -77,12 +71,10 @@ div.imagem-baixo {
 
 /* ///////////// */
 
-#confs{
-
+/*#confs{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.4);
-
+    background-color: rgba(53, 53, 53, 0.4);
     display: none;
     z-index: 2;
-}
+}*/
