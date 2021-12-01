@@ -1,0 +1,80 @@
+/* GERAL */
+body{
+    margin: 0 auto;
+    width: 100%;  
+}
+/*////GERAL////*/
+
+/* IMAGENS */
+
+/*////IMAGENS////*/
+
+/* BOTÕES */
+input#local{
+    font-size: 10pt;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+}
+
+input#desafio{
+    font-size: 10pt;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+}
+
+input#concluir{
+    font-size: 10pt;
+    margin-top: 62vh;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+}
+/*////BOTÕES////*/
+
+/* TEXTOS E LINKS*/
+
+/*////TEXTOS E LINKS////*/
+
+/* DIVS */
+div.imagem-cima {
+    height: 11vh;
+    width: 100%;
+    background: #0ca789 url("../img/partecima.png") no-repeat center;
+    position: fixed;
+}
+
+div.imagem-meio {
+    margin-top: 20%;
+    margin-bottom: 80px;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    background: white url("../img/ceretRota1.png") no-repeat top center;
+}
+
+div.imagem-baixo {
+    bottom: 0;
+    height: 11vh;
+    width: 100%;
+    background: #0ca789 url("../img/partebaixo.png") no-repeat top center;
+    position: fixed;
+}
+/*////DIVS////*/
+
+/* ///////////// */
+
+/*#confs{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(53, 53, 53, 0.4);
+    display: none;
+    z-index: 2;
+}*/

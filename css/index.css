@@ -1,0 +1,62 @@
+/* GERAL */
+body{
+    margin-top: 30%;
+    width: 100%;
+}
+/*////GERAL////*/
+
+/* IMAGENS */
+img#logo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+img#voltar{
+    float: left;
+    margin-left: 15%;
+    width: 7%;
+}
+/*////IMAGENS////*/
+
+/* BOTÕES */
+button#btnLogar{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
+}
+/*////BOTÕES E LINKS////*/
+
+/* TEXTO E LINKS */
+input.form-control{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
+}
+
+a {
+    color: black;
+}
+
+.erro{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-decoration: underline palevioletred;
+}
+/*////TEXTO E LINKS////*/
+
+/* ALERT */
+/* alert email */
+.alert-erro {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 200); 
+    color: black;
+    margin-bottom: 15px;
+    display: block;
+}
+/*////ALERT////*/

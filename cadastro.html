@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<!-- HEAD -->
+
+<head>
+    <!-- ALFABETO USADO -->
+    <meta charset="utf-8">
+
+    <!-- LINK JQUERY -->
+    <script src="js/jquery.js"></script>
+
+    <!-- LINKS DO BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- LINK DO CSS -->
+    <link rel="stylesheet" href="css/cadastro.css">
+
+    <!-- LINK DO JS DO CORDOVA -->
+    <script src="./../cordova.js"></script>
+
+    <!-- LINKS DOS JS DO FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+    <!-- IMPORT DA FONTE -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Kurenaido&display=swap');
+    </style>
+
+    <!-- TÍTULO -->
+    <title>Wazerunner</title>
+</head>
+<!--////HEAD////-->
+
+<!-- BODY -->
+
+<body>
+    <center>
+        <div class="tudo">
+            <form id="cadastro">
+                <!-- IMAGEM LOGO -->
+                <div class="form-group">
+                    <img id="logo" src="img/logo2.png">
+                </div>
+                <!--////IMAGEM LOGO////-->
+
+                
+
+                <!-- ALERT ERRO NOME-->
+                <div class="alert-nome">
+                    <p class="erro">Nome já cadastrado.</p>
+                </div>
+                <!--////ALERT ERRO NOME////-->
+
+                <!-- INPUT CADASTRO -->
+                <div class="form-group">
+                    <input type="text" class="form-control" id="txtNome" placeholder="Digite seu nome!" required>
+                </div>
+
+                <!-- ALERT ERRO EMAIL-->
+                <div class="alert-email">
+                    <p class="erro">Email já cadastrado.</p>
+                </div>
+                <!--////ALERT ERRO EMAIL////-->
+                
+                <div class="form-group">
+                    <input type="text" class="form-control" id="txtEmail" placeholder="Digite seu email!" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="txtSenha" placeholder="Digite sua senha!" required>
+                </div>
+                <!--////INPUT CADASTRO////-->
+                <br><br>
+                <!-- TERMOS DE CONDIÇÕES -->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="flexCheckDefault"
+                        onchange="document.getElementById('btnCadastrar').disabled = !this.checked;">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Eu aceito os termos de condições
+                    </label>
+                    <!--////TERMOS DE CONDIÇÕES////-->
+
+                    <br><br>
+
+                    <!-- BOTÃO CADASTRO -->
+                    <button type="button" id="btnCadastrar" class="btn btn-outline-success" disabled>Cadastrar</button>
+                    <!--////BOTÃO CADASTRO////-->
+
+                    <br><br>
+
+                    <!-- ÍCONE VOLTAR -->
+                    <div class="form-group">
+                        <a href="principal.html"><img src="img/voltar.png" id="voltar"></a>
+                    </div>
+                    <!--////ÍCONE VOLTAR////-->
+            </form>
+        </div>
+    </center>
+
+    <!-- LINKS DOS JS -->
+    <script src="js/firebase.js"></script>
+    <script src="js/cadastro.js"></script>
+
+</body>
+<!--////BODY////-->
+
+</html>

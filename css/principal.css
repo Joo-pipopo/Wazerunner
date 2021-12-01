@@ -1,0 +1,77 @@
+/* GERAL */
+body{
+
+    margin: 0 auto;
+    width: 100%;
+}
+/*////GERAL////*/
+
+/* IMAGENS */
+/*////IMAGENS////*/
+
+/* BOTÕES */
+select.form-select{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    width: 70vw;
+    height: 5vh;
+    margin-top: 40%;
+    margin-left: 0%;
+    font-size: 10pt;
+    background-color: white;
+}
+option.opcoes{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: medium;
+}
+/*////BOTÕES////*/
+
+/* TEXTOS E LINKS*/
+p.title{
+   font-size: 35pt;
+   font-family: 'Zen Kaku Gothic New', sans-serif;
+   font-family: 'Zen Kurenaido', sans-serif;
+   font-weight: bolder;
+   color: rgb(255, 255, 255);
+   margin-top: 15%;
+   display: inline;
+}
+p.title2{
+    font-size: 35pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 15%;
+    display: inline;
+ }
+/*////TEXTOS E LINKS////*/
+
+/* DIVS */
+div.imagem-cima {
+    height: 10vh;
+    width: 100%;
+    background: #0ca789 url("../img/partecima.png") no-repeat top center;
+    position: fixed;
+}
+
+div.imagem-meio {
+    margin-top: 14%;
+    margin-bottom: 80px;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    background: url("../img/fundoEscolhaParque.png") no-repeat top left;
+}
+
+div.imagem-baixo {
+    bottom: 0;
+    height: 11vh;
+    width: 100%;
+    background: #0ca789 url("../img/partebaixo.png") no-repeat top center;
+    position: fixed;
+}
+/*////DIVS////*/

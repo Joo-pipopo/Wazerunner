@@ -1,0 +1,102 @@
+/* GERAL */
+body{
+    margin: 0%;  
+}
+/*////GERAL////*/
+
+/* IMAGENS */
+img.voltar{
+    width: 7%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+img.icone-rota{
+    width: 45%;
+}
+/*////IMAGENS////*/
+
+/* BOTÕES */
+/*////BOTÕES////*/
+
+/* TEXTOS E LINKS*/
+
+p.title{
+   font-size: 30pt;
+   font-family: 'Zen Kaku Gothic New', sans-serif;
+   font-family: 'Zen Kurenaido', sans-serif;
+   font-weight: bolder;
+}
+
+p.subtitle{
+    font-size: 25pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+}
+
+p.distancia{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+
+p.facil{
+    font-size: 18pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #0ca789;
+}
+
+p.medio{
+    font-size: 18pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #bcbe0f;
+}
+
+p.dificil{
+    font-size: 18pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #970909;
+}
+
+p.extreme{
+    font-size: 18pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #a00586;
+}
+/*////TEXTOS E LINKS////*/
+
+/* DIVS */
+div.imagem-cima {
+    height: 10vh;
+    width: 100%;
+    background: #0ca789 url("../img/partecima.png") no-repeat top center;
+    position: fixed;
+}
+
+div.imagem-meio {
+    margin-top: 20%;
+    margin-bottom: 80px;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    overflow: scroll;
+}
+
+div.imagem-baixo {
+    bottom: 0;
+    height: 11vh;
+    width: 100%;
+    background: #0ca789 url("../img/partebaixo.png") no-repeat top center;
+    position: fixed;
+}
+/*////DIVS////*/

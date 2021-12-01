@@ -1,0 +1,86 @@
+/* GERAL */
+body{
+    margin-top: 15%;
+    width: 100%;
+}
+/*////GERAL////*/
+
+/* IMAGENS */
+img#logo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+}
+img#voltar{
+    float: left;
+    margin-left: 15%;
+    width: 7%;
+}
+/*////IMAGENS////*/
+
+/* BOTÕES */
+button#btnInserir{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
+}
+/*////BOTÕES E LINKS////*/
+
+/* CHECK BOX E PA */
+#flexCheckDefault{
+    -ms-transform: scale(1); /* IE */
+    -moz-transform: scale(1); /* FF */
+    -webkit-transform: scale(1); /* Safari and Chrome */
+    -o-transform: scale(1); /* Opera */
+    transform: scale(1);
+    padding: 2%;
+}
+.form-check-label{
+    font-size: 15pt;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+/*////CHECK BOX E PA////*/
+
+/* TEXTO E LINKS */
+input.form-control{
+    width: 70%;
+    height: 5vh;
+    font-size: 15pt;
+    margin-bottom: 5%;
+}
+
+.erro{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-decoration: underline palevioletred;
+}
+/*////TEXTO E LINKS////*/
+
+/* ALERT */
+/* alert email */
+.alert-email {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 200); 
+    color: black;
+    margin-bottom: 15px;
+    display: none;
+} 
+  
+/* alert nome */
+.alert-nome {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 200); 
+    color: black;
+    margin-bottom: 15px;
+    display: none;
+}
+
+/*////ALERT////*/
