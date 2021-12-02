@@ -16,14 +16,39 @@ function concluir(){
 }
 
 let map;
+let long;
+let lat;
 
-function map() {
-  
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+    zoom: 18,
   });
+
+  infoWindow = new google.maps.InfoWindow();
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      const pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+      };
+
+      infoWindow.setPosition(pos);
+      infoWindow.setContent("Location found.");
+      infoWindow.open(map);
+      map.setCenter(pos);
+    },
+    () => {
+      handleLocationError(true, infoWindow, map.getCenter());
+    }
+  );
 }
 
+function api() {
+  document.getElementById("map").style.display = "block";
+  document.getElementById("voltar").style.display = "block";
+}
+
+function voltar() {
+  document.getElementById("map").style.display = "none";
 }

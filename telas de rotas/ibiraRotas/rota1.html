@@ -7,6 +7,9 @@
     <!-- ALFABETO USADO -->
     <meta charset="utf-8">
 
+    <!-- LINK DO SCRIPT DA API -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
     <!-- LINKS DO BOOTSTRAP-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -47,12 +50,12 @@
 
         <!-- CENTRO -->
         <div class="imagem-meio">
-            <div id="map"></div>
-
+        
             <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCE1DZfEZ6o1QiwC8knA19XXbgSlHr0xfs&callback=initMap&v=weekly" async></script>
+            <div id="map"></div>
 
-            <input type="button" class="btn btn-outline-success" id="local" value="SOLICITAR LOCALIZAÇÃO">
+            <input type="button" class="btn btn-outline-success" id="local" value="SOLICITAR LOCALIZAÇÃO" onclick="api()">
             <input type="button" class="btn btn-outline-success" id="desafio" value="SOLICITAR DESAFIO"
                 onclick="desafio()">
 
@@ -66,7 +69,7 @@
 
 
             <!-- BOTÃO VOLTAR -->
-            <a href="../ibiraRotas.html"><img src="../img/voltar.png" class="voltar"></a>
+            <img src="../img/voltar.png" class="voltar" onclick="voltar()">
         </div>
         <!--////IMAGEM DE BAIXO////-->
         </div>
