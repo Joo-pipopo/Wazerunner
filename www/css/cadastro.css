@@ -50,40 +50,37 @@ input.form-control{
     font-size: 15pt;
     margin-bottom: 5%;
 }
+
+.erro{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-decoration: underline palevioletred;
+}
 /*////TEXTO E LINKS////*/
 
 /* ALERT */
 /* alert email */
 .alert-email {
+    width: 80%;
     padding: 20px;
-    background-color: #fa5b4f;
-    color: white;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 200); 
+    color: black;
     margin-bottom: 15px;
     display: none;
-}
+} 
   
 /* alert nome */
 .alert-nome {
+    width: 80%;
     padding: 20px;
-    background-color: #fa5b4f; 
-    color: white;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 200); 
+    color: black;
     margin-bottom: 15px;
     display: none;
 }
 
-/* o x de fechar */
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.closebtn:hover {
-    color: rgb(31, 31, 31);
-}
 /*////ALERT////*/

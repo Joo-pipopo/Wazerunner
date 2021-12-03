@@ -39,3 +39,26 @@ a {
     color: black;
 }
 /*////TEXTO E LINKS////*/
+
+/* ALERT */
+/* alert erro */
+.alert-erro {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 200); 
+    color: black;
+    margin-bottom: 15px;
+    display: none;
+}
+
+/* texto alert erro*/
+.erro{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-decoration: underline palevioletred;
+}
+
+/*////ALERT////*/

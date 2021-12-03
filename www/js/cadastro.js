@@ -22,6 +22,9 @@ var app = {
         var alertEmail = document.getElementById('alert-Email');
         var alertNome = document.getElementById('alert-Nome');
 
+        alertEmail.style.display='none';
+        alertNome.style.display='none';
+        
         col.get().then((querySnapshot) => {
             var contagem = 0;
             querySnapshot.forEach((doc) => {
@@ -29,7 +32,6 @@ var app = {
             });
 
             if (contagem >= 1) {
-                //alert('email inválido');
                 alertEmail.style.display='block';
             } else {
                 col2.get().then((q) => {
@@ -39,7 +41,6 @@ var app = {
                     });
 
                     if (contagem2 >= 1) {
-                        //alert('nome de usuário inválido');
                         alertNome.style.display='block';
                     } else {
                         db.collection("cadastros").add({
