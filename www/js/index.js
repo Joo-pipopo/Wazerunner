@@ -12,9 +12,6 @@ var app = {
     logar: function(){
       var email = document.getElementById("txtEmail").value;
       var senha = document.getElementById("txtSenha").value;
-      var alertErro = document.getElementById("alert-erro");
-
-      alertErro.style.display='none';
 
       var db = firebase.firestore();
       var col = db.collection("cadastros").where("email", "==", email).where("senha", "==", senha);  
@@ -29,7 +26,7 @@ var app = {
           if (contagem == 1) {
             window.location = 'principal.html';
           } else {
-            alertErro.style.display='block';
+            document.getElementById('alert-erro').style.display = 'block';
           }
 
     }).catch((error) => {

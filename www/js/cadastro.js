@@ -19,11 +19,7 @@ var app = {
         var col = db.collection("cadastros").where("email", "==", cemail)
         var col2 = db.collection("cadastros").where("nome", "==", cnome);
 
-        var alertEmail = document.getElementById('alert-Email');
-        var alertNome = document.getElementById('alert-Nome');
-
-        alertEmail.style.display='none';
-        alertNome.style.display='none';
+        
         
         col.get().then((querySnapshot) => {
             var contagem = 0;
@@ -32,7 +28,7 @@ var app = {
             });
 
             if (contagem >= 1) {
-                alertEmail.style.display='block';
+                document.getElementById('alert-email').style.display= "block";
             } else {
                 col2.get().then((q) => {
                     var contagem2 = 0;
@@ -41,7 +37,7 @@ var app = {
                     });
 
                     if (contagem2 >= 1) {
-                        alertNome.style.display='block';
+                        document.getElementById('alert-nome').style.display= "block";
                     } else {
                         db.collection("cadastros").add({
                             nome: cnome,

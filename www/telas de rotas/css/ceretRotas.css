@@ -42,36 +42,12 @@ p.distancia{
     font-weight: bold;
 }
 
-p.facil{
+p.facil, p.medio, p.dificil, p.extreme{
     font-size: 18pt;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: bold;
     color: #0ca789;
-}
-
-p.medio{
-    font-size: 18pt;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-weight: bold;
-    color: #bcbe0f;
-}
-
-p.dificil{
-    font-size: 18pt;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-weight: bold;
-    color: #970909;
-}
-
-p.extreme{
-    font-size: 18pt;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-weight: bold;
-    color: #a00586;
 }
 /*////TEXTOS E LINKS////*/
 

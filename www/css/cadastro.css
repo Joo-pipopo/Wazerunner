@@ -19,7 +19,7 @@ img#voltar{
 /*////IMAGENS////*/
 
 /* BOTÕES */
-button#btnInserir{
+button#btnCadastrar{
     width: 70%;
     height: 5vh;
     font-size: 15pt;
@@ -51,18 +51,11 @@ input.form-control{
     margin-bottom: 5%;
 }
 
-.erro{
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-family: 'Zen Kurenaido', sans-serif;
-    color: black;
-    font-size: 15pt;
-    text-decoration: underline palevioletred;
-}
 /*////TEXTO E LINKS////*/
 
 /* ALERT */
 /* alert email */
-.alert-email {
+#alert-email {
     width: 80%;
     padding: 20px;
     border-radius: 20px;
@@ -73,7 +66,7 @@ input.form-control{
 } 
   
 /* alert nome */
-.alert-nome {
+#alert-nome {
     width: 80%;
     padding: 20px;
     border-radius: 20px;
@@ -83,4 +76,12 @@ input.form-control{
     display: none;
 }
 
+/*txt do erro*/
+.erro{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-decoration: underline palevioletred;
+}
 /*////ALERT////*/
