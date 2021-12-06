@@ -36,7 +36,7 @@ p.title{
    font-family: 'Zen Kurenaido', sans-serif;
    font-weight: bolder;
    color: rgb(255, 255, 255);
-   margin-top: 15%;
+   margin-top: 18%;
    display: inline;
 }
 p.title2{
@@ -44,8 +44,8 @@ p.title2{
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: bolder;
-    color: #ffffff;
-    margin-top: 15%;
+    color: #33ff00;
+    margin-top: 18%;
     display: inline;
  }
 /*////TEXTOS E LINKS////*/
@@ -59,7 +59,7 @@ div.imagem-cima {
 }
 
 div.imagem-meio {
-    margin-top: 14%;
+    margin-top: 17%;
     margin-bottom: 80px;
     height: 90vh;
     width: 100%;
@@ -69,7 +69,7 @@ div.imagem-meio {
 
 div.imagem-baixo {
     bottom: 0;
-    height: 11vh;
+    height: 10vh;
     width: 100%;
     background: #0ca789 url("../img/partebaixo.png") no-repeat top center;
     position: fixed;

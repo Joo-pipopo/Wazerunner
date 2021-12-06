@@ -84,7 +84,7 @@ div.imagem-cima {
 }
 
 div.imagem-meio {
-    margin-top: 20%;
+    margin-top: 19%;
     margin-bottom: 80px;
     height: 90vh;
     width: 100%;
@@ -94,7 +94,7 @@ div.imagem-meio {
 
 div.imagem-baixo {
     bottom: 0;
-    height: 11vh;
+    height: 10vh;
     width: 100%;
     background: #0ca789 url("../img/partebaixo.png") no-repeat top center;
     position: fixed;

@@ -8,12 +8,13 @@ body{
 /* IMAGENS */
 img#logo{
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 12%;
     width: 60%;
 }
 img#voltar{
     float: left;
-    margin-left: 15%;
+    margin-top: 13%;
+    margin-left: 7%;
     width: 7%;
 }
 /*////IMAGENS////*/
@@ -48,7 +49,8 @@ input.form-control{
     width: 70%;
     height: 5vh;
     font-size: 15pt;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
+    margin-top: 6%;
 }
 
 /*////TEXTO E LINKS////*/
