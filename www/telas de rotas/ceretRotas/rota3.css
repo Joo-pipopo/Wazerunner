@@ -18,7 +18,7 @@ img#voltar{
 
 /* BOTÕES */
 input#local{
-    font-size: 10pt;
+    font-size: 6pt;
     margin-top: 5%;
     margin-left: 5%;
     float: left;
@@ -28,7 +28,7 @@ input#local{
 }
 
 input#desafio{
-    font-size: 10pt;
+    font-size: 6pt;
     margin-top: 5%;
     margin-right: 5%;
     float: right;
@@ -38,7 +38,7 @@ input#desafio{
 }
 
 input#concluir{
-    font-size: 10pt;
+    font-size: 6pt;
     margin-top: 63vh;
     width: 40%;
     height: 5%;
@@ -77,7 +77,8 @@ div.imagem-baixo {
 /*////DIVS////*/
 
 /* ALERTS */
-#alert-concluir{
+
+#alet-concluir{
     height: 100vh;
     width: 100vw;
     background-color: #0ca789;
@@ -86,7 +87,7 @@ div.imagem-baixo {
 }
 
 #sim, #nao{
-    font-size: 25pt;
+    font-size: 8pt;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
     margin-top: 5%;
@@ -103,13 +104,14 @@ div.imagem-baixo {
 
 p.alert{
     padding-top: 40%;
-    font-size: 25pt;
+    font-size: 10pt;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
     color: white;
     font-weight: bolder;
     text-shadow: 1px 5px 1px black;
 }
+
 /*////ALERTS////*/
 
 /* API */

@@ -1,0 +1,79 @@
+/* ALERTS */
+#alert-concluir{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0ca789;
+    display: none;
+    opacity: 0.7;
+}
+
+#sim, #nao{
+    font-size: 2pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+    text-shadow: 1px 5px 1px black;
+    color: white;
+    border-color: white;
+    opacity: 1 !important;
+}
+
+p.alert{
+    padding-top: 40%;
+    font-size: 10pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 5px 1px black;
+}
+/*////ALERTS////*/
+
+/* API */
+/*tem q setar o height pra setar o tamanho da div*/
+#map {
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 1;
+}
+
+#api-volta{
+    z-index: 2;
+}
+/*////API////*/
+
+/* BOTÕES */
+input#local{
+    font-size: 2pt;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+}
+
+input#desafio{
+    font-size: 2pt;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+}
+
+input#concluir{
+    font-size: 2pt;;
+    margin-top: 63vh;
+    width: 40%;
+    height: 5%;
+    font-weight: bolder;
+}
+/*////BOTÕES////*/
