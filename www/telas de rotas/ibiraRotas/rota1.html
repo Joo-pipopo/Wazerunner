@@ -21,18 +21,19 @@
 
     <!-- LINK DO CSS -->
     <link rel="stylesheet" href="rota1.css">
-
+    <link rel="stylesheet" href="../botoes.css">
+    
     <!-- LINK DO JS DO CORDOVA -->
-    <script src="./../cordova.js"></script>
+    <script src="./../../cordova.js"></script>
+    
+    <!-- LINKS DOS JS -->
+    <script src="../js/rota.js"></script>
 
     <!-- IMPORT DA FONTE -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Kurenaido&display=swap');
     </style>
-
-    <!-- LINKS DOS JS -->
-    <script src="../js/rota.js"></script>
-
+    
     <!-- TÍTULO -->
     <title>Wazerunner</title>
 </head>
@@ -60,7 +61,7 @@
             <!-- ALERT DO CONCLUIR -->
             <div id="alert-concluir">
                 <p class="alert">TEM CERTEZA QUE QUER CONCLUIR A CORRIDA?</p>
-                <input type="button" class="btn btn-outline-success" id="sim" value="SIM" onclick="window.location.href='../ibiraRotas.html'">
+                <input type="button" class="btn btn-outline-success" id="sim" value="SIM" onclick="window.location.href='../ceretRotas.html'">
                 <input type="button" class="btn btn-outline-success" id="nao" value="NÃO" onclick="voltar()">
             </div>
 
