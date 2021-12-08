@@ -23,11 +23,26 @@ img.icone-rota{
 /* TEXTOS E LINKS*/
 
 p.title{
-   font-size: 30pt;
-   font-family: 'Zen Kaku Gothic New', sans-serif;
-   font-family: 'Zen Kurenaido', sans-serif;
-   font-weight: bolder;
-}
+    font-size: 35pt;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin-top: 18%;
+    display: inline;
+    text-shadow: 1px 1px 1px black;
+ }
+ p.title2{
+     font-size: 35pt;
+     font-family: 'Zen Kaku Gothic New', sans-serif;
+     font-family: 'Zen Kurenaido', sans-serif;
+     font-weight: bolder;
+     color: #33ff00;
+     margin-top: 18%;
+     display: inline;
+     text-shadow: 1px 1px 1px black
+  }
+
 
 p.subtitle{
     font-size: 25pt;
@@ -84,7 +99,7 @@ div.imagem-cima {
 }
 
 div.imagem-meio {
-    margin-top: 19%;
+    margin-top: 20%;
     margin-bottom: 80px;
     height: 90vh;
     width: 100%;
