@@ -38,6 +38,7 @@ p.title{
    color: rgb(255, 255, 255);
    margin-top: 18%;
    display: inline;
+   text-shadow: 1px 1px 1px black;
 }
 p.title2{
     font-size: 35pt;
@@ -47,6 +48,7 @@ p.title2{
     color: #33ff00;
     margin-top: 18%;
     display: inline;
+    text-shadow: 1px 1px 1px black
  }
 /*////TEXTOS E LINKS////*/
 
