@@ -13,10 +13,11 @@ function concluir() {
 let map;
 let long;
 let lat;
+let img = "<img src='../img/Correndodapica.png'>";
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -23.588333, lng: -46.658890 },
+    center: { lat:  48.7099, lng: 44.5227 },
     zoom: 18,
   });
 
@@ -29,7 +30,7 @@ function initMap() {
       };
 
       infoWindow.setPosition(pos);
-      infoWindow.setContent("Location found.");
+      infoWindow.setContent(img);
       infoWindow.open(map);
       map.setCenter(pos);
     },
